@@ -1,3 +1,3 @@
-# skat-app
+# skat-app [VIP]
 
-Playground Web-App for playing skat.
+Web-App for playing skat.

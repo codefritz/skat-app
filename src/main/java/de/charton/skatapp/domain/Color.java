@@ -1,7 +1,6 @@
 package de.charton.skatapp.domain;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
 
 @AllArgsConstructor

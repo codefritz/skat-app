@@ -4,13 +4,13 @@ import de.charton.skatapp.domain.Player;
 import de.charton.skatapp.domain.PlayingCard;
 import de.charton.skatapp.gameStorage.GameStorage;
 import java.util.stream.Collectors;
-import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-@AllArgsConstructor
+@RequiredArgsConstructor
 @Controller
 class GameController {
 
