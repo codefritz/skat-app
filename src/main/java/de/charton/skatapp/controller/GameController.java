@@ -16,7 +16,7 @@ class GameController {
 
   private final GameStorage gameStorage;
 
-  @GetMapping("hello")
+  @GetMapping("/hello")
   ResponseEntity<String> greetings() {
     return ResponseEntity.ok("Hello\n");
   }
